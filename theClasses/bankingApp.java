@@ -21,7 +21,7 @@ public class bankingApp {
         Scanner scanner = new Scanner(System.in);
         String url="jdbc:mysql://localhost:3306/bankingSystem";
         String root="root";
-        String password="tahir!@#$1234";
+       //
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             System.out.println("Drivers Loaded Successfully !");
